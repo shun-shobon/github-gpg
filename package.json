@@ -1,0 +1,8 @@
+{
+  "name": "github-gpg",
+  "description": "shows whether the GPG key has been registered in the GitHub profile.",
+  "version": "0.1.0",
+  "author": "shun-shobon <shun.shobon@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
