@@ -18,10 +18,12 @@ const config: ConfigurationFactory = () => ({
         use: [
           {
             loader: "babel-loader",
-            configFile: "tsconfig.build.json",
           },
           {
             loader: "ts-loader",
+            options: {
+              configFile: "tsconfig.build.json"
+            }
           },
         ],
         exclude: /node_modules/,
