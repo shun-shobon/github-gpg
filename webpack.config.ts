@@ -16,8 +16,13 @@ const config: ConfigurationFactory = () => ({
       {
         test: /\.ts$/,
         use: [
-          { loader: "babel-loader" },
-          { loader: "ts-loader" },
+          {
+            loader: "babel-loader",
+            configFile: "tsconfig.build.json",
+          },
+          {
+            loader: "ts-loader",
+          },
         ],
         exclude: /node_modules/,
       },
