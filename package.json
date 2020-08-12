@@ -8,6 +8,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
+    "test": "jest",
     "lint": "eslint --ignore-path .gitignore 'src/**/*.ts'",
     "lint:fix": "yarn lint --fix"
   },
